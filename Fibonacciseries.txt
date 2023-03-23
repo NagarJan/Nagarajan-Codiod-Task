@@ -1,0 +1,21 @@
+//Fibonacciseries
+import java.util.Scanner;
+
+public class FibonacciSeries {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int f1=0, f2=1;
+		int count=1;
+		while(count<=20)
+		{
+			int f=f1+f2;
+			System.out.println(f);
+			f1=f2;
+			f2=f;
+			count++;
+		}
+
+	}
+
+}
