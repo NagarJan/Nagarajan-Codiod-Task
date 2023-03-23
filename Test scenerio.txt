@@ -1,0 +1,19 @@
+
+Write test scenario for Credit Cards
+
+
+ Test Scenario id            Test Scenario Description
+
+ Ts_Cc_01	             Check that the bank name of the credit card
+ Ts_Cc_02	             Check that the bank logo is properly displayed on the credit card or not
+ Ts_Cc_03	             Check that credit card type logo is displayed on the credit card or not such as Visa, Mastercard
+ Ts_Cc_04	             Verify that the credit card number is properly displayed or not.
+ Ts_Cc_05	             Verify that the expiry date is properly displayed or not
+ Ts_Cc_06	             Verify that the CVV number should be displayed on the backside of the credit card.
+ Ts_Cc_07	             Verify that the cardholder’s name should be displayed properly.
+ Ts_Cc_08	             Check that the color of the credit card
+ Ts_Cc_09	             Check that dimension of the credit card is as expected or not
+ Ts_Cc_10	             Check that the Wifi symbol is displayed on the credit card or not
+ Ts_Cc_11	             Check that the magnetic strip is displayed on the backside of the credit card number
+ Ts_Cc_12	             Check that hologram should be displayed on credit card
+ Ts_Cc_13	             Check that weight of the credit card

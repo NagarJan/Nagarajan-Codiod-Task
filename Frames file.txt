@@ -1,0 +1,25 @@
+package Selenium;
+//Handling Frames
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class FramesDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "c:\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://demoqa.com/frames");
+		driver.manage().window().maximize();
+		//Focusing on available frames in window
+		List<WebElement> fm=driver.findElements(By.tagName("iframe"));
+		int frameCount=fm.size();
+		System.out.println("Total number of frames is" +frameCount);
+
+	}
+
+}
